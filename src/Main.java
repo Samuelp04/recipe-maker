@@ -10,7 +10,7 @@ public class Main {
                 \t1. Start recipe
                 \t2. Show current recipe
                 \t3. Exit
-                Enter Selection:\s
+                Enter Selection: \s
                 """);
 
 
@@ -19,7 +19,7 @@ public class Main {
                 startRecipe();
                 break;
             case 2:
-                showRecipes();
+                getRecipes();
                 break;
             case 3:
                 System.out.println("Will exit the program");
@@ -34,7 +34,20 @@ public class Main {
 
     }
 
+    static void getRecipes(){
+
+    }
+
     static void showRecipes(){
         System.out.println("Will show what recipes the user has made");
     }
+
+    static void getCulture(){
+
+    }
+
+    static void getAllergies(){
+
+    }
+
 }
