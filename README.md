@@ -1,3 +1,3 @@
-# Recipt Printer
+# Recipe Maker
 
-Prints recipt of a purchases on the screen
+Makes recipes for users.
