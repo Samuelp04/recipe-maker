@@ -1,10 +1,11 @@
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-
+        windowInit();
         System.out.println("""
                 Please select an option:
                 \t1. Start recipe
@@ -47,4 +48,19 @@ public class Main {
 
     }
 
+
+    static void windowInit(){
+
+        //Main frame of the program
+        JFrame frame = new JFrame();
+        frame.setTitle("Recipe Maker");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(420, 420);
+        frame.setVisible(true);
+        frame.setResizable(true);
+
+        //Icon for the main
+        ImageIcon image = new ImageIcon("spoonfork.png");
+        frame.setIconImage(image.getImage());
+    }
 }
