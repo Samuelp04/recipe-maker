@@ -1,1 +1,3 @@
-# PLACEHOLDER NAME
+# Recipe Maker
+
+Makes recipes for users.
