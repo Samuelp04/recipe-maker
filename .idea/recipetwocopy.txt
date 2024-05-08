@@ -1,0 +1,48 @@
+Name: Chicken Noodle
+
+Meal: lunch, dinner
+
+Ingredients:Chicken, Noodles, Carrot, Celery, Broth
+
+Cooking Time: 30
+
+Description: A traditional American soup that has a mild broth, chicken, and vegetables like carrots and celery
+
+Culture: American
+
+Allergies: n/a
+
+
+
+Name: Omellete 
+
+Meal: breakfast
+
+Ingredients:egg, milk, cheese
+
+Cooking Time: 15
+
+Description: 
+
+Culture: American
+
+Allergies: milk, cheese, dairy
+
+
+Name: Miso Soup
+
+Meal: breakfast 
+
+Ingredients:broth stock, tofu, green onions
+
+Cooking Time:20
+
+Description: A traditional soup that can be a meal on its own or served on the side. 
+
+Culture: Japanese
+
+Allergies: onions, tofu
+
+
+
+
