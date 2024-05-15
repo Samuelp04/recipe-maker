@@ -1,4 +1,4 @@
-
+import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,6 +6,11 @@ public class Main {
         Menu menu = new Menu();
 
         menu.displayMenu();
+
+        Recipe recipe = new Recipe("Miso", "Lunch", "Japanese",
+                Collections.singletonList((("Tofu, egg, broth"))), "tofu");
+
+
     }
 
 
