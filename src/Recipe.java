@@ -15,7 +15,7 @@ public class Recipe {
 
 
     /**
-     * This is my value contructor below, but right now
+     * This is my value constructor below, but right now
      * it doesn't have any parameters, because I'm not 100% sure how I want it
      * to behave, just yet, or if I want more than one value constructor, which is most likely.
      * public Recipe(String name, String meal, String culture, String Allergies) Maybe.
