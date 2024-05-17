@@ -19,8 +19,10 @@ public class Culture {
                               String allergies) {
 
 
+        public static void put(int i, Culturemeal culturemeal) {
+        }
     }
-    public  Culturemeal() {
+    public void Culturemeal() {
         Culturemeal.put(1, new Culturemeal("Chicken Noodle", 1, "American", "Lunch/Dinner", List.of("Carrots", "Noodles", "Celery", "Chicken"), "none"));
         Culturemeal.put(2, new Culturemeal("Miso Soup", 2, "Japanese", "Breakfast", List.of("Tofu", "Onions", "Wakame"), "Tofu"));
         Culturemeal.put(3, new Culturemeal("Sushi Rolls", 3, "Japanese", "Lunch", List.of("Rice", "Seafood", "Wakame"), "Seafood"));
