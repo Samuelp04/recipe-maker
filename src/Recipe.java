@@ -11,7 +11,7 @@ public class Recipe {
     private String culture;
     private List<String> ingredients;
     private String allergies;
-
+    private String cuisine;
 
 
     /**
@@ -77,6 +77,18 @@ public class Recipe {
             new Recipe("Omellete", "Breakfast","American", Arrays.asList("Eggs", "Onion", "Bacon"), "Eggs"),
             new Recipe("Spagettii", "Dinner", "Italian", Arrays.asList("Noodles", "Hamburger", "Tomato Sauce"), "None")
     );
+    static Scanner scan = new Scanner(System.in);
+    static String printCulture() {
+        System.out.println("What cuisine are you interested in? American, Japanese, Italian?");
+        String cuisine = scan.nextLine();
+        return cuisine;
+    }
+    static String printMeal(){
+        System.out.println("What type of meal do you want? Breafast, Lunch, or Dinner?");
+        String meal = scan.nextLine();
+        return meal;
+    }
+
 
     /**
      * for the main class:
@@ -92,15 +104,15 @@ public class Recipe {
      */
 
         //Hopefully it takes the input and puts it into ArrayList based off their selection.
-    static List<Recipe> filterRecipes(String mealType, String cuisine) {
+    /*static List<Recipe> filterRecipes(String mealType, String cuisine) {
         List<Recipe> filteredRecipes = new ArrayList<>();
-        for(Recipe recipe : recipes) {
-            if(recipes.mealType.equalsIgnorecase(mealType) && recipe.cuisine.equalsIgnoreCase(cuisine)){
+        for(Recipe recipe : recipe) {
+            if(recipe.mealType.equalsIgnorecase(mealType) && recipe.cuisine.equalsIgnoreCase(cuisine)){
                 filteredRecipes.add(recipe);
             }
 
         }return filteredRecipes;
-    }
+    }*/
 
 
    /* This is stray code. I debated creating a matching recipes based off the above filter recipe. Then didn't.

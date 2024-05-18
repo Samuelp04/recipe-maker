@@ -7,10 +7,12 @@ public class Main {
 
         menu.displayMenu();
 
+
         Recipe recipe = new Recipe("Miso", "Lunch", "Japanese",
                 Collections.singletonList((("Tofu, egg, broth"))), "tofu");
         Culture culture = new Culture("American");
-
+       /* recipe.printCulture();
+        recipe.printMeal();*/
 
     }
 
