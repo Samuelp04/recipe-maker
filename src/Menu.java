@@ -37,9 +37,7 @@ public class Menu {
     }
 
     /*
-    Each one of the functions are used for the display menu
-
-    They make the menu work by making the main menu work you can show and select present recipes.
+    Each one of the functions are used for the display menu.
      */
     private void showAllRecipes() {
         System.out.println("All Available Recipes:");
